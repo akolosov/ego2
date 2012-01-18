@@ -1,0 +1,46 @@
+# $Id: .htaccess,v 1.1 2005/05/11 07:36:41 hunter Exp $
+Options All
+
+AddType application/x-httpd-php .php
+
+ErrorDocument 404 /index.php
+ErrorDocument 401 /index.php
+
+DirectoryIndex index.php
+
+<FilesMatch "^([^.]+)$">
+  ForceType throw
+</FilesMatch>
+
+<FilesMatch index.php>
+  ForceType application/x-httpd-php
+</FilesMatch>
+
+php_flag	display_errors		on
+php_flag	display_startup_errors	on
+php_value	output_buffering	1
+
+# unicode support
+# start
+AddDefaultCharset utf-8
+<IfModule mod_charset.c>
+  CharsetRecodeMultipartForms Off
+</IfModule>
+
+php_value	mbstring.func_overload	6
+php_value	default_charset		UTF-8
+php_value	mbstring.language	Russian
+
+php_value	mbstring.internal_encoding	UTF-8
+
+php_flag	mbstring.encoding_translation	on
+
+php_value	mbstring.http_input	auto
+php_value	mbstring.http_input	"UTF-8,KOI8-R,CP1251"
+
+php_value	mbstring.http_output	pass
+php_value	mbstring.http_output	UTF-8
+
+php_value	mbstring.detect_order	auto
+php_value	mbstring.detect_order	"UTF-8,KOI8-R,CP1251"
+# end

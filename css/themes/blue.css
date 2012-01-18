@@ -1,0 +1,88 @@
+a:visited {
+        text-decoration : none;
+	color		: #4455cc;
+}
+
+a:hover {
+        text-decoration : underline;
+	color		: #334499;
+}
+
+a {
+        text-decoration : none;
+	color		: #334499;
+}
+
+.border {
+	border		: 1px dotted #005bbb;
+}
+
+.h-border {
+	border-top	: 1px dotted #005bbb;
+	border-bottom	: 1px dotted #005bbb;
+}
+
+.t-border {
+	border-top	: 1px dotted #005bbb;
+}
+
+.b-border {
+	border-bottom	: 1px dotted #005bbb;
+}
+
+.v-border {
+	border-left	: 1px dotted #005bbb;
+        border-right	: 1px dotted #005bbb;
+}
+
+.l-border {
+	border-left	: 1px dotted #005bbb;
+}
+
+.lt-border {
+	border-left	: 1px dotted #005bbb;
+	border-top	: 1px dotted #005bbb;
+}
+
+.lb-border {
+	border-left	: 1px dotted #005bbb;
+	border-bottom	: 1px dotted #005bbb;
+}
+
+.r-border {
+        border-right	: 1px dotted #005bbb;
+}
+
+.rt-border {
+        border-right	: 1px dotted #005bbb;
+        border-top	: 1px dotted #005bbb;
+}
+
+.rb-border {
+        border-right	: 1px dotted #005bbb;
+        border-bottom	: 1px dotted #005bbb;
+}
+
+.rbl-border {
+        border-right	: 1px dotted #005bbb;
+        border-bottom	: 1px dotted #005bbb;
+        border-left	: 1px dotted #005bbb;
+}
+
+.rtl-border {
+        border-right	: 1px dotted #005bbb;
+        border-top	: 1px dotted #005bbb;
+        border-left	: 1px dotted #005bbb;
+}
+
+.ltb-border {
+        border-bottom	: 1px dotted #005bbb;
+        border-top	: 1px dotted #005bbb;
+        border-left	: 1px dotted #005bbb;
+}
+
+.rtb-border {
+        border-right	: 1px dotted #005bbb;
+        border-top	: 1px dotted #005bbb;
+        border-bottom	: 1px dotted #005bbb;
+}

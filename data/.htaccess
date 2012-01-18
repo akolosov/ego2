@@ -1,0 +1,14 @@
+<FilesMatch (.*)>
+    ForceType none
+    Deny from all
+</FilesMatch>
+
+<FilesMatch (.*\.(x|op)ml)>
+    ForceType none
+    Allow from all
+</FilesMatch>
+
+<FilesMatch (.*\.php)>
+    ForceType none
+    Allow from all
+</FilesMatch>

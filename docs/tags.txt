@@ -1,0 +1,75 @@
+POST
+~~~~
+[post:Название поста:Модуль:Идентификатор#Ссылка] - вставляет в текст ссылку на пост.
+
+Параметры:
+    Название поста	- строка, которая будет отображаться в названии ссылки
+    Модуль		- в каком модуле опубликован пост. Может отсутствовать.
+    Идентификатор	- идентификационный номер поста.
+    Ссылка		- внутренняя ссылка на странице (anchor). Может отсутствовать.
+
+Примеры:
+    [post:some title:blog:123]
+    [post:more title:comments:123#13]
+
+
+IMAGE
+~~~~~
+[image:(Процент%:|Ширина:Высота:)Ссылка на изображение] - вставляет в текст уменьшенное/увеличенное изображение.
+
+Параметры:
+    Ширина		- ширина итогового изображения в пикселях. Может отсутствовать.
+    Высота		- высота итогового изображения в пикселях. Может отсутствовать.
+    Процент		- процент реальной ширины и высоты для масштабирование итогового изображения.
+    Ссылка		- ссылка на файл с изображением. Локальная или удаленная.
+
+    Если параметры Ширина и Высота не заданы, используется 40%-ая часть (или заданная параметром Процент) от реальных параметров изображения.
+
+Пример:
+    [image:320:240:images/test.jpg]
+    [image:http://www.someurl.com/images/test.png]
+    [image:70%:http://www.someurl.com/images/test.gif]
+
+
+KEY
+~~~
+[key:Название ключа:Модуль:Идентификатор] - вставляет в текст ссылку на ключевое слово.
+
+Параметры:
+    Название ключа	- строка, которая будет отображаться в названии ссылки
+    Модуль		- в каком модуле опубликован пост. Может отсутствовать.
+    Идентификатор	- идентификатор ключевого слова.
+
+Примеры:
+    [key:some title:blog:some key]
+    [key:more title:gizmo:some gizmo key]
+
+
+HIDE
+~~~~
+[hide="Название блока" pos=Позиция w=Ширина h=Высота]Информация[/hide] - вставляет в текст скрываемый блок.
+
+Параметры:
+    Название блока	- строка, которая будет отображаться в названии ссылки
+    Позиция		- способ отображения на экране, absolute или relative.
+    			  Может отсутствовать. По умолчанию имеет значение "absolute".
+    Ширина		- ширина блока. Может отсутствовать. По умолчанию имеет значение "auto".
+    Высота		- высота блока. Может отсутствовать. По умолчанию имеет значение "auto".
+
+Примеры:
+    [hide="Albert Einstein said" w=300px]"A hundred times every day I remind myself that my inner and outer life depend upon the labors of other men, living and dead, and that I must exert myself in order to give in the measure as I have received and am still receiving." [/hide]
+    [hide="Albert Einstein said" pos=relative w=300px]"A hundred times every day I remind myself that my inner and outer life depend upon the labors of other men, living and dead, and that I must exert myself in order to give in the measure as I have received and am still receiving." [/hide]
+
+
+REM
+~~~
+[rem pos=Позиция w=Ширина h=Высота]Информация[/rem] - вставляет в текст плавающий блок.
+
+Параметры:
+    Позиция		- положение на экране, left или right. Может отсутствовать.
+    			  По умолчанию имеет значение "right".
+    Ширина		- ширина блока. Может отсутствовать. По умолчанию имеет значение "auto".
+    Высота		- высота блока. Может отсутствовать. По умолчанию имеет значение "auto".
+
+Примеры:
+    [rem w=300px]"A hundred times every day I remind myself that my inner and outer life depend upon the labors of other men, living and dead, and that I must exert myself in order to give in the measure as I have received and am still receiving." [/rem]

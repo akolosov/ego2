@@ -1,0 +1,132 @@
+#maintable {
+	border		: 1px solid;
+        padding		: 10px;
+}
+
+#addonstable {
+        padding		: 10px;
+}
+
+.topichead {
+	margin		: 1.25em 0 0;
+	padding		: 0px 0px 4px;
+	font            : bold 140%/1.4em georgia, times, serif;
+	text-transform	: uppercase;
+	text-decoration	: none;
+}
+
+.topictext {
+        text-align      : justify;
+        padding-left	: 10px;
+ 	display		: block;
+        font            : italic 100%/1.2em georgia, times, serif;
+}
+
+.topiclinx {
+	margin		: 1.5em 0 0.75em;
+	font		: 78%/1.4em georgia, times, serif;
+	letter-spacing	: 0.1em;
+        padding-left    : 10px;
+        padding-right   : 10px;
+}
+
+.topickeys {
+	margin		: 1.5em 0 0.75em;
+	font		: 78%/1.4em georgia, times, serif;
+	letter-spacing	: 0.1em;
+        padding-left    : 10px;
+}
+
+.topictime {
+	margin		: 1.5em 0 0.75em;
+	font		: normal 78%/1.4em georgia, times, serif;
+	letter-spacing	: 0.2em;
+}
+
+.parthead {
+	margin		: 1.5em 0 0.75em;
+	font		: bold 78%/1.4em georgia, times, serif;
+	text-transform	: uppercase;
+	letter-spacing	: 0.2em;
+}
+
+.maintance {
+	margin		: 1.5em 0 0.75em;
+	font		: normal 78%/1.4em georgia, times, serif;
+	letter-spacing	: 0.1em;
+}
+
+#blog-title {
+	margin		: 1.5em 0 0.75em;
+	padding		: 10px 0px 0px 0px;
+	font            : bold 300%/1.2em georgia, times, serif;
+	letter-spacing	: 0.1em;
+	text-decoration	: underline;
+	text-transform	: uppercase;
+}
+
+td#text {
+        margin          : 0px;
+        padding-top     : 5px;
+        padding-bottom  : 5px;
+        padding-left    : 20px;
+        padding-right   : 20px;
+        text-align      : justify;
+}
+
+td#header, td#footer {
+        margin          : 0px;
+        padding-top     : 0px;
+        padding-bottom  : 0px;
+        padding-left    : 0px;
+        padding-right   : 0px;
+}
+
+td#addons {
+        margin          : 0px;
+        padding-top     : 0px;
+        padding-bottom  : 0px;
+        padding-left    : 0px;
+        padding-right   : 0px;
+}
+
+td#category {
+	display		: none;
+}
+
+
+.border {
+        border          : 1px dashed #AAAAAA;
+}
+
+.h-border {
+        border-top      : 1px dashed #AAAAAA;
+        border-bottom   : 1px dashed #AAAAAA;
+}
+
+.t-border {
+        border-top      : 1px dashed #AAAAAA;
+}
+
+.b-border {
+        border-bottom   : 1px dashed #AAAAAA;
+}
+
+.v-border {
+        border-left     : 1px dashed #AAAAAA;
+        border-right    : 1px dashed #AAAAAA;
+}
+
+.rb-border {
+        border-right	: 1px dashed #AAAAAA;
+        border-bottom   : 1px dashed #AAAAAA;
+}
+
+.r-border {
+        border-right	: 1px dashed #AAAAAA;
+}
+
+
+.l-border {
+        border-left	: 1px dashed #AAAAAA;
+}

@@ -1,0 +1,92 @@
+.topichead {
+	margin		: 1.25em 0 0;
+	padding		: 0px 0px 4px;
+	font            : normal 140%/1.4em georgia, times, serif;
+	text-decoration	: none;
+}
+
+.topictext {
+        text-align      : justify;
+        padding-left	: 10px;
+ 	display		: block;
+        font            : italic 100%/1.2em georgia, times, serif;
+}
+
+.topiclinx {
+	margin		: 1.5em 0 0.75em;
+	font		: 78%/1.4em "Trebuchet MS",Trebuchet, Tahoma, Verdana, Arial, Sans-Serif;
+	text-transform	: uppercase;
+	letter-spacing	: 0.1em;
+        padding-left    : 10px;
+        padding-right   : 10px;
+}
+
+.topictime {
+	margin		: 1.5em 0 0.75em;
+	font		: 78%/1.4em georgia, times, serif;
+	padding-left	: 14px;	
+	letter-spacing	: 0.2em;
+	background	: url(http://ego.b0b.org/images/date_icon.gif) no-repeat 0 50%;
+}
+
+.topicauth {
+	margin		: 1.5em 0 0.75em;
+	font		: 78%/1.4em georgia, times, serif;
+	letter-spacing	: 0.2em;
+}
+
+.parthead {
+	margin		: 1.5em 0 0.75em;
+	font		: bold 78%/1.4em "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, Sans-Serif;
+	text-transform	: uppercase;
+	letter-spacing	: 0.2em;
+	padding-left	: 14px;	
+	background	: url(http://ego.b0b.org/images/date_icon.gif) no-repeat 0 50%;
+}
+
+.maintance {
+	margin		: 1.5em 0 0.75em;
+	font		: normal 78%/1.4em "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, Sans-Serif;
+	text-transform	: uppercase;
+	letter-spacing	: 0.1em;
+	padding-left	: 14px;	
+	background	: url(http://ego.b0b.org/images/date_icon.gif) no-repeat 0 50%;
+}
+
+#blog-title {
+	margin		: 1.5em 0 0.75em;
+	padding		: 10px 0px 0px 0px;
+	font            : bold 300%/1.2em "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, Sans-Serif;
+	letter-spacing	: 0.1em;
+	text-decoration	: underline;
+	text-transform	: uppercase;
+}
+
+td#text {
+        margin          : 0px;
+        padding-top     : 5px;
+        padding-bottom  : 5px;
+        padding-left    : 20px;
+        padding-right   : 20px;
+        text-align      : justify;
+}
+
+td#header, td#footer {
+        margin          : 0px;
+        padding-top     : 0px;
+        padding-bottom  : 0px;
+        padding-left    : 0px;
+        padding-right   : 0px;
+}
+
+td#addons {
+        margin          : 0px;
+        padding-top     : 0px;
+        padding-bottom  : 0px;
+        padding-left    : 0px;
+        padding-right   : 0px;
+}
+
+td#category {
+	display		: none;
+}

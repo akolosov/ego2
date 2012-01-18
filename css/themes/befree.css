@@ -1,0 +1,88 @@
+a:visited {
+        text-decoration : none;
+	color		: #557799;
+}
+
+a:hover {
+        text-decoration : underline;
+	color		: #335577;
+}
+
+a {
+        text-decoration : none;
+	color		: #335577;
+}
+
+.border {
+	border		: 1px dotted #222266;
+}
+
+.h-border {
+	border-top	: 1px dotted #222266;
+	border-bottom	: 1px dotted #222266;
+}
+
+.t-border {
+	border-top	: 1px dotted #222266;
+}
+
+.b-border {
+	border-bottom	: 1px dotted #222266;
+}
+
+.v-border {
+	border-left	: 1px dotted #222266;
+        border-right	: 1px dotted #222266;
+}
+
+.l-border {
+	border-left	: 1px dotted #222266;
+}
+
+.lt-border {
+	border-left	: 1px dotted #222266;
+	border-top	: 1px dotted #222266;
+}
+
+.lb-border {
+	border-left	: 1px dotted #222266;
+	border-bottom	: 1px dotted #222266;
+}
+
+.r-border {
+        border-right	: 1px dotted #222266;
+}
+
+.rt-border {
+        border-right	: 1px dotted #222266;
+        border-top	: 1px dotted #222266;
+}
+
+.rb-border {
+        border-right	: 1px dotted #222266;
+        border-bottom	: 1px dotted #222266;
+}
+
+.rbl-border {
+        border-right	: 1px dotted #222266;
+        border-bottom	: 1px dotted #222266;
+        border-left	: 1px dotted #222266;
+}
+
+.rtl-border {
+        border-right	: 1px dotted #222266;
+        border-top	: 1px dotted #222266;
+        border-left	: 1px dotted #222266;
+}
+
+.ltb-border {
+        border-bottom	: 1px dotted #222266;
+        border-top	: 1px dotted #222266;
+        border-left	: 1px dotted #222266;
+}
+
+.rtb-border {
+        border-right	: 1px dotted #222266;
+        border-top	: 1px dotted #222266;
+        border-bottom	: 1px dotted #222266;
+}

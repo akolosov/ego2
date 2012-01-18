@@ -1,0 +1,15 @@
+<FilesMatch (.*)>
+    ForceType none
+    Deny from all
+</FilesMatch>
+
+<FilesMatch (.*\.css)>
+    ForceType none
+    Allow from all
+</FilesMatch>
+
+<FilesMatch (.*\.htc)>
+    ForceType none
+    Allow from all
+</FilesMatch>
+

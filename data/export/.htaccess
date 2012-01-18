@@ -1,0 +1,2 @@
+Redirect permanent /data/export/news.rss20.xml  http://ego.b0b.org/blog/rss20/
+Redirect permanent /data/export/news.atom03.xml http://ego.b0b.org/blog/atom03/
